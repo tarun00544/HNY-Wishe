@@ -1,0 +1,86 @@
+  <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wish{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+        .img-container{
+            display: flex;
+            justify-content: center;
+            width: 300px;
+            height: 300px;
+            
+            overflow: hidden;
+        }
+        .img img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        h3{
+            margin-top: 20px;
+            font-family: Arial,;
+            font-style: oblique;
+            font-size: 20px;
+            color: brown;
+            text-align: center;
+
+        }
+        .button-container{
+            display: flex;
+           justify-content: space-evenly;
+            width: 300px;
+         
+        }
+        .yes{
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px gray;
+             
+             
+        }
+        .yes:hover{
+            background-color: lightgreen;
+        }
+        .yes a, .no a{
+            text-decoration: none;
+        }
+        .no{
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+             border-radius: 10px;
+             box-shadow: 2px 2px 5px gray;
+            
+        }
+        .no:hover{
+            background-color: lightcoral;
+        }
+    </style>
+ </head>
+ <body>
+    <div class="wish">
+        </h3>
+     <div class="img-container" >
+        <img src="https://media.tenor.com/dEN66mMlhB8AAAAm/i-love-you.webp" alt="">
+        </div>
+       <h3>hey! i made something special for you <br> will you see it?</h3>
+       <div class="button-container">
+       <button class="yes">  <a href="yes.html">yes</a></button>
+        <button class="no"><a href="no.html">No</a></button>
+       </div>
+    </div>
+
+ </body>
+ </html>
